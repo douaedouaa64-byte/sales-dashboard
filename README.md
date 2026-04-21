@@ -19,4 +19,13 @@ This project presents an end-to-end data analysis pipeline combining Python, SQL
 pip install -r requirements.txt
 
 streamlit run src/app.py
+## SQL Analysis
+
+Key queries used for business insights:
+
+```sql
+SELECT product_line, SUM(total) AS revenue
+FROM sales
+GROUP BY product_line
+ORDER BY revenue DESC;
 
