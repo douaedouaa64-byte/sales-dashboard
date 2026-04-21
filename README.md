@@ -17,4 +17,6 @@ This project presents an end-to-end data analysis pipeline combining Python, SQL
 
 ```bash
 pip install -r requirements.txt
+
 streamlit run src/app.py
+
